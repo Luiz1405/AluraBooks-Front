@@ -7,6 +7,10 @@ function IconesHeader() {
 const Icone = styled.li`
   margin-right: 40px;
   width: 25px;
+
+  li {
+    list-style: none;
+  }
 `
 
 const Icones = styled.ul `

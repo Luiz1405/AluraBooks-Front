@@ -27,19 +27,24 @@ const Titulo = styled.h2`
 `
 
 const Subtitulo = styled.h3`
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 40px;
 `
 
 const Resultado = styled.div`
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    padding: 10px;
     cursor: pointer;
+    transition: 0.3s;
     p {
-        width: 200px;
+        width: auto;
+        max-width: 300px;
+        margin-bottom: 10px;
     }
     
     img {

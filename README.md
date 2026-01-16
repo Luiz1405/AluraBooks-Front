@@ -41,13 +41,6 @@ e neste repositório está toda a parte do FrontEnd que foi desenvolvida com Jav
 - Implementar sistema de Autenticação (Login/Cadastro).
 - Criar novas seções e categorias de livros.
   
-🔹 BackEnd
-- Migrar para uma arquitetura mais robusta (como a Clean Architecture).
-- Implementar segurança (Rate Limiting e JWT).
-- Otimizar a busca: Atualmente a complexidade é O(n); a meta é evoluir para um mapeamento indexado O(1).
-- Adicionar um banco de dados para armazenar os registros.
-- Utilizar docker para conteinerização do projeto.
-
 ---
 
 ## Requisitos

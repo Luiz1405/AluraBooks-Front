@@ -8,9 +8,6 @@ const Icone = styled.li`
   margin-right: 40px;
   width: 25px;
 
-  li {
-    list-style: none;
-  }
 `
 
 const Icones = styled.ul `
@@ -18,6 +15,8 @@ const Icones = styled.ul `
   align-items: center;
   margin-left: auto;
   padding-right: 20px;
+  list-style: none;
+  
 `
 
 const icones = [perfil, sacola];
